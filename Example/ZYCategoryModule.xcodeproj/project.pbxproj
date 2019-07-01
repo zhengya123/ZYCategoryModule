@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		221BFDF91794D0F900476767 /* ZYCategoryModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZYCategoryModule.podspec; path = ../ZYCategoryModule.podspec; sourceTree = "<group>"; };
+		221BFDF91794D0F900476767 /* ZYCategoryModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZYCategoryModule.podspec; path = ../ZYCategoryModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		50A23B9EC390207AA216CC4B /* Pods-ZYCategoryModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYCategoryModule_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZYCategoryModule_Tests/Pods-ZYCategoryModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZYCategoryModule_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYCategoryModule_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,12 +61,12 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E5DF0094D5BE377366ED6E0 /* Pods_ZYCategoryModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYCategoryModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF7C3B3F1469E1DEC046A7F2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AF7C3B3F1469E1DEC046A7F2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CBCBB70D59AEC136D79F8B14 /* Pods-ZYCategoryModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYCategoryModule_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZYCategoryModule_Tests/Pods-ZYCategoryModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CCF62108303D8A3814A134C9 /* Pods-ZYCategoryModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYCategoryModule_Example.release.xcconfig"; path = "Target Support Files/Pods-ZYCategoryModule_Example/Pods-ZYCategoryModule_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D835D45F91F186E5643D4458 /* Pods-ZYCategoryModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYCategoryModule_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZYCategoryModule_Example/Pods-ZYCategoryModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EC7C3D62819706AAE8DFE7C6 /* Pods_ZYCategoryModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYCategoryModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1C6ED33A1245CC8F6FBCCB7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F1C6ED33A1245CC8F6FBCCB7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				50A23B9EC390207AA216CC4B /* Pods-ZYCategoryModule_Tests.debug.xcconfig */,
 				CBCBB70D59AEC136D79F8B14 /* Pods-ZYCategoryModule_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -347,10 +346,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ZYCategoryModule_Example/Pods-ZYCategoryModule_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ZYCategoryModule/ZYCategoryModule.framework",
+				"${BUILT_PRODUCTS_DIR}/ZYImageModule/ZYImageModule.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZYCategoryModule.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZYImageModule.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

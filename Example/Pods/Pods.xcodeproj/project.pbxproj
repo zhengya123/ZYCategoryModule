@@ -1,0 +1,1098 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02A6D25D8F47E8F9910E16628F72846A /* ZYImageModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C888B9855BB9D41DD9E8277246365F4B /* ZYImageModule-dummy.m */; };
+		16842617F2EBCC2ABF562BCC42C5C821 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BBF0CBF1B102ADA776824CACCA82DB5 /* Foundation.framework */; };
+		1EDD9FF70F0F3C244C7B3728D5B588EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BBF0CBF1B102ADA776824CACCA82DB5 /* Foundation.framework */; };
+		2A158E831124C14781DE3B5D90F7701F /* ZYImageModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1726F073D032D31C4926A696B043CAD2 /* ZYImageModule.framework */; };
+		3FDEE447E3CBC2B13BF4B341F2EAE8C7 /* UIImage+ZYBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 2567B74098EAD18250CEEB9FB36981D3 /* UIImage+ZYBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		490533C4546CC0145EDFD6A54E6A0C6A /* UIImage+ZYBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F5FD09F5A6C0CDC665B185FEC2B532 /* UIImage+ZYBundle.m */; };
+		4B781B52B8ADC8805E1810166EEF8FF2 /* Pods-ZYCategoryModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCAA0D0A9593CEC7ADDB3E7AD551233 /* Pods-ZYCategoryModule_Example-dummy.m */; };
+		4F83F6F1666A669FD07893AF5CA2DCDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BBF0CBF1B102ADA776824CACCA82DB5 /* Foundation.framework */; };
+		59FBBDB48A5D53864987538B96E13812 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C50E21F2B6CB4CE6A0D3C8A4CB3D2805 /* ReplaceMe.m */; };
+		6280661DA3FB8080DE83EB5D0E9D0373 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5E7D8A6D6812A747BB9E38BA39B80C /* ReplaceMe.m */; };
+		66C6B0EE6BFEEBEBCD4CBAF6E5E64640 /* ZYCategoryModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA28C4BB82D8C502489A27C004B119C4 /* ZYCategoryModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		777C538A4BED35FD13E20E8B416ABCCA /* Pods-ZYCategoryModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 867CC7930389AB3C9B94B4A68513B612 /* Pods-ZYCategoryModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B3622016C06BBF7F91DC98FCB059625 /* upVersionCancelBtnImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B04FEB7665F6452CD3B1C3CEE7CE05A /* upVersionCancelBtnImage.png */; };
+		A003CB6DF16E5C448DAB03A4F5B7F9D7 /* ZYImageModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18061E7030DB6AD5C42607B51FB8CFE0 /* ZYImageModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAB0C6235E52D4DEBC5D4A8AD0D4E35F /* upVersionCancelBtnImageNomal.png in Resources */ = {isa = PBXBuildFile; fileRef = C4206D98A846BE821DC958CC28F92E4E /* upVersionCancelBtnImageNomal.png */; };
+		BE1627F642BC7965750187A96E8DD0C9 /* ZYImageModule.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D203EDFE94471DB888D38B6339DE94D5 /* ZYImageModule.bundle */; };
+		CC39D6019BAB2002E63A8ED8D6D69B6D /* Pods-ZYCategoryModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABE394C9CDE2BF217595C2FC307EE8E /* Pods-ZYCategoryModule_Tests-dummy.m */; };
+		D17FB1616E6E015DFEE2635D6C4712EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BBF0CBF1B102ADA776824CACCA82DB5 /* Foundation.framework */; };
+		E7B5A78074E958F30799E9B6191BA428 /* upVersionHeaderImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FFEF1640AAFED45439781C8BA784142 /* upVersionHeaderImage.png */; };
+		EE5678AE5F58E211B106C72E5495B531 /* Pods-ZYCategoryModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0471530C0FEF80FA90188203882D35A0 /* Pods-ZYCategoryModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F28EDA332F2A2A282171669837DB930A /* ZYCategoryModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C37F8E90665303D41F7D7E05CF87542C /* ZYCategoryModule-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4254FF147054C2DB8FD458D19183BD68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45A80B2B22C350C11E779241D649A04A;
+			remoteInfo = "Pods-ZYCategoryModule_Example";
+		};
+		56E23881952B4053628B200F4FAA299F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CAEF1B22F48B5062E20B3CD2CDBBA18;
+			remoteInfo = "ZYImageModule-ZYImageModule";
+		};
+		887B2843747241B7BAFF4D28F52B64F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 198400F4FC25C3D7AA9C87494F7BB124;
+			remoteInfo = ZYImageModule;
+		};
+		A704DA249D76F3CBA29137DBB653114B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 198400F4FC25C3D7AA9C87494F7BB124;
+			remoteInfo = ZYImageModule;
+		};
+		D6EA866DCBEFAEF8722504E2B4BCEC7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42EB9CA77DDABF6C2AFBE75B3E7D8C40;
+			remoteInfo = ZYCategoryModule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D153F9A40EA248BEF046447CD2A04B /* Pods_ZYCategoryModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZYCategoryModule_Tests.framework; path = "Pods-ZYCategoryModule_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0471530C0FEF80FA90188203882D35A0 /* Pods-ZYCategoryModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZYCategoryModule_Tests-umbrella.h"; sourceTree = "<group>"; };
+		05E4FD73E5680DE7A3023B85237AD6F7 /* ZYCategoryModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZYCategoryModule.xcconfig; sourceTree = "<group>"; };
+		065FFEC8E2EE54C5849C581331F8579B /* Pods-ZYCategoryModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZYCategoryModule_Tests.modulemap"; sourceTree = "<group>"; };
+		084F1CA03084BCEA0B27CDF52E8D5EAB /* ZYCategoryModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZYCategoryModule-Info.plist"; sourceTree = "<group>"; };
+		0BF9D66CEB0F07C161ED5F829CC801B3 /* ResourceBundle-ZYImageModule-ZYImageModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZYImageModule-ZYImageModule-Info.plist"; sourceTree = "<group>"; };
+		1726F073D032D31C4926A696B043CAD2 /* ZYImageModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZYImageModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18061E7030DB6AD5C42607B51FB8CFE0 /* ZYImageModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYImageModule-umbrella.h"; sourceTree = "<group>"; };
+		2567B74098EAD18250CEEB9FB36981D3 /* UIImage+ZYBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ZYBundle.h"; path = "ZYCategoryModule/Classes/UIImage+ZYBundle.h"; sourceTree = "<group>"; };
+		2BCAA0D0A9593CEC7ADDB3E7AD551233 /* Pods-ZYCategoryModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZYCategoryModule_Example-dummy.m"; sourceTree = "<group>"; };
+		2DA475F4594251FDEF179BAC14AC5466 /* ZYImageModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYImageModule-prefix.pch"; sourceTree = "<group>"; };
+		34B8B0D4CA1B401E7200CD46E3CE10F0 /* Pods-ZYCategoryModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYCategoryModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3C26C9DAFDC957D5B9A04F1CDC3080F6 /* ZYCategoryModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYCategoryModule-prefix.pch"; sourceTree = "<group>"; };
+		4F994D0C4718BCFC8FF3464B59F1A3B5 /* Pods-ZYCategoryModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZYCategoryModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		501565F2097130E76FF86D1D5EBF853A /* Pods-ZYCategoryModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYCategoryModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		55036E675BAD08E34A52612712EBBDF4 /* Pods-ZYCategoryModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYCategoryModule_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5E4B4736E6C64533B4FA85CB334FF2A4 /* ZYImageModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZYImageModule.framework; path = ZYImageModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ABE394C9CDE2BF217595C2FC307EE8E /* Pods-ZYCategoryModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZYCategoryModule_Tests-dummy.m"; sourceTree = "<group>"; };
+		6B04FEB7665F6452CD3B1C3CEE7CE05A /* upVersionCancelBtnImage.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = upVersionCancelBtnImage.png; path = ZYImageModule/Assets/WJCResource/upVersionCancelBtnImage.png; sourceTree = "<group>"; };
+		6FFEF1640AAFED45439781C8BA784142 /* upVersionHeaderImage.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = upVersionHeaderImage.png; path = ZYImageModule/Assets/WJCResource/upVersionHeaderImage.png; sourceTree = "<group>"; };
+		7A62B5D3C7C904EA75792CAB33397DE7 /* ZYCategoryModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZYCategoryModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		80FD3AD6C9B46596B5AD7E2626055A52 /* Pods-ZYCategoryModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYCategoryModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		867CC7930389AB3C9B94B4A68513B612 /* Pods-ZYCategoryModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZYCategoryModule_Example-umbrella.h"; sourceTree = "<group>"; };
+		881B38937750705F62FF6151EA5E0EEF /* Pods-ZYCategoryModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZYCategoryModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8A4081CC4861C7A1EB9DB4AA000334D3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8AB7223E6E149050860AB1DA2B062F4B /* Pods-ZYCategoryModule_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYCategoryModule_Example-Info.plist"; sourceTree = "<group>"; };
+		8BBF0CBF1B102ADA776824CACCA82DB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8E58D94D0F92497F1F5B3DF990B95A9D /* Pods-ZYCategoryModule_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYCategoryModule_Tests-Info.plist"; sourceTree = "<group>"; };
+		8EBD1EE204B859923910E7C711733DC1 /* Pods-ZYCategoryModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZYCategoryModule_Example-frameworks.sh"; sourceTree = "<group>"; };
+		95F5FD09F5A6C0CDC665B185FEC2B532 /* UIImage+ZYBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ZYBundle.m"; path = "ZYCategoryModule/Classes/UIImage+ZYBundle.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A01E7FE7CF2FE41BF04B123C7D9E8CF0 /* ZYCategoryModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZYCategoryModule.modulemap; sourceTree = "<group>"; };
+		A0FD323988162D9AD029C2B1CF79A0AA /* ZYImageModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZYImageModule-Info.plist"; sourceTree = "<group>"; };
+		A6E2A11A899E2C08FCE5D871FF034B72 /* Pods-ZYCategoryModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYCategoryModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ABA6330B8C866C3A467E54E59B7C6417 /* ZYImageModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZYImageModule.modulemap; sourceTree = "<group>"; };
+		AD7082CDE2506F8989E181475B5E8238 /* ZYCategoryModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZYCategoryModule.framework; path = ZYCategoryModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65780AFB8590010D4EF31AD67B81C02 /* Pods-ZYCategoryModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYCategoryModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C37F8E90665303D41F7D7E05CF87542C /* ZYCategoryModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZYCategoryModule-dummy.m"; sourceTree = "<group>"; };
+		C4206D98A846BE821DC958CC28F92E4E /* upVersionCancelBtnImageNomal.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = upVersionCancelBtnImageNomal.png; path = ZYImageModule/Assets/WJCResource/upVersionCancelBtnImageNomal.png; sourceTree = "<group>"; };
+		C44837E589E4C2B1FA87D742B2857D49 /* ZYImageModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZYImageModule.xcconfig; sourceTree = "<group>"; };
+		C50E21F2B6CB4CE6A0D3C8A4CB3D2805 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZYCategoryModule/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		C56990A8C3615DD042C37C987E908675 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C888B9855BB9D41DD9E8277246365F4B /* ZYImageModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZYImageModule-dummy.m"; sourceTree = "<group>"; };
+		CF5E7D8A6D6812A747BB9E38BA39B80C /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZYImageModule/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		D203EDFE94471DB888D38B6339DE94D5 /* ZYImageModule.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ZYImageModule.bundle; path = "ZYImageModule-ZYImageModule.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA28C4BB82D8C502489A27C004B119C4 /* ZYCategoryModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYCategoryModule-umbrella.h"; sourceTree = "<group>"; };
+		DDE01BEA181A74A367ABDDCD8F120F85 /* Pods_ZYCategoryModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZYCategoryModule_Example.framework; path = "Pods-ZYCategoryModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEFAEBADE194E6EDCA91449B5F2E37C9 /* Pods-ZYCategoryModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZYCategoryModule_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32E0359E3DC06DBE08AB93AEFD4E4E8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D17FB1616E6E015DFEE2635D6C4712EA /* Foundation.framework in Frameworks */,
+				2A158E831124C14781DE3B5D90F7701F /* ZYImageModule.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58403C358E83E271B1F29E78A1DBFA74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EDD9FF70F0F3C244C7B3728D5B588EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		975D60E47A6E849CFF629F6998777A9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16842617F2EBCC2ABF562BCC42C5C821 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C182785563584B88022082A479A8DC51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F83F6F1666A669FD07893AF5CA2DCDA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C53FF986F65B2BB3CBCDCFBCAC5F7028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DE62E7C414E39A0396E95E7DB24BB75 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2AFA3797A957067673F1231AFDD3AE3 /* Pods-ZYCategoryModule_Example */,
+				1FE25C2BAED6ED27C79AE791EF73428E /* Pods-ZYCategoryModule_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		18237A681897752D4D3C94908B34C257 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8A4081CC4861C7A1EB9DB4AA000334D3 /* LICENSE */,
+				C56990A8C3615DD042C37C987E908675 /* README.md */,
+				7A62B5D3C7C904EA75792CAB33397DE7 /* ZYCategoryModule.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1DEAEC590FB780EE1E5A59B4E93645FF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A01E7FE7CF2FE41BF04B123C7D9E8CF0 /* ZYCategoryModule.modulemap */,
+				05E4FD73E5680DE7A3023B85237AD6F7 /* ZYCategoryModule.xcconfig */,
+				C37F8E90665303D41F7D7E05CF87542C /* ZYCategoryModule-dummy.m */,
+				084F1CA03084BCEA0B27CDF52E8D5EAB /* ZYCategoryModule-Info.plist */,
+				3C26C9DAFDC957D5B9A04F1CDC3080F6 /* ZYCategoryModule-prefix.pch */,
+				DA28C4BB82D8C502489A27C004B119C4 /* ZYCategoryModule-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZYCategoryModule";
+			sourceTree = "<group>";
+		};
+		1FE25C2BAED6ED27C79AE791EF73428E /* Pods-ZYCategoryModule_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				065FFEC8E2EE54C5849C581331F8579B /* Pods-ZYCategoryModule_Tests.modulemap */,
+				881B38937750705F62FF6151EA5E0EEF /* Pods-ZYCategoryModule_Tests-acknowledgements.markdown */,
+				A6E2A11A899E2C08FCE5D871FF034B72 /* Pods-ZYCategoryModule_Tests-acknowledgements.plist */,
+				6ABE394C9CDE2BF217595C2FC307EE8E /* Pods-ZYCategoryModule_Tests-dummy.m */,
+				8E58D94D0F92497F1F5B3DF990B95A9D /* Pods-ZYCategoryModule_Tests-Info.plist */,
+				0471530C0FEF80FA90188203882D35A0 /* Pods-ZYCategoryModule_Tests-umbrella.h */,
+				B65780AFB8590010D4EF31AD67B81C02 /* Pods-ZYCategoryModule_Tests.debug.xcconfig */,
+				501565F2097130E76FF86D1D5EBF853A /* Pods-ZYCategoryModule_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZYCategoryModule_Tests";
+			path = "Target Support Files/Pods-ZYCategoryModule_Tests";
+			sourceTree = "<group>";
+		};
+		49A893E036971640EFA385C34C84B41F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81458F681B50852990E590B6E72438AF /* ZYImageModule */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		530E293FF2E9A292839E15CA43F0F619 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDE01BEA181A74A367ABDDCD8F120F85 /* Pods_ZYCategoryModule_Example.framework */,
+				00D153F9A40EA248BEF046447CD2A04B /* Pods_ZYCategoryModule_Tests.framework */,
+				AD7082CDE2506F8989E181475B5E8238 /* ZYCategoryModule.framework */,
+				D203EDFE94471DB888D38B6339DE94D5 /* ZYImageModule.bundle */,
+				5E4B4736E6C64533B4FA85CB334FF2A4 /* ZYImageModule.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54820093828421C53BA3967C811913CB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E7B82B6C0224232640C75DBD6C9706D /* ZYCategoryModule */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		54F94E72CD06D406A45459450FDE35DA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8BBF0CBF1B102ADA776824CACCA82DB5 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6E7B82B6C0224232640C75DBD6C9706D /* ZYCategoryModule */ = {
+			isa = PBXGroup;
+			children = (
+				C50E21F2B6CB4CE6A0D3C8A4CB3D2805 /* ReplaceMe.m */,
+				2567B74098EAD18250CEEB9FB36981D3 /* UIImage+ZYBundle.h */,
+				95F5FD09F5A6C0CDC665B185FEC2B532 /* UIImage+ZYBundle.m */,
+				18237A681897752D4D3C94908B34C257 /* Pod */,
+				1DEAEC590FB780EE1E5A59B4E93645FF /* Support Files */,
+			);
+			name = ZYCategoryModule;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		81458F681B50852990E590B6E72438AF /* ZYImageModule */ = {
+			isa = PBXGroup;
+			children = (
+				CF5E7D8A6D6812A747BB9E38BA39B80C /* ReplaceMe.m */,
+				C75E3048032DC80A28605016D5EA71B4 /* Resources */,
+				9E9BF6793A67EF295C9C92DB506E3166 /* Support Files */,
+			);
+			name = ZYImageModule;
+			path = ZYImageModule;
+			sourceTree = "<group>";
+		};
+		9E2F6692E82B10E939D75CCCD5CA9EDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1726F073D032D31C4926A696B043CAD2 /* ZYImageModule.framework */,
+				54F94E72CD06D406A45459450FDE35DA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E9BF6793A67EF295C9C92DB506E3166 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BF9D66CEB0F07C161ED5F829CC801B3 /* ResourceBundle-ZYImageModule-ZYImageModule-Info.plist */,
+				ABA6330B8C866C3A467E54E59B7C6417 /* ZYImageModule.modulemap */,
+				C44837E589E4C2B1FA87D742B2857D49 /* ZYImageModule.xcconfig */,
+				C888B9855BB9D41DD9E8277246365F4B /* ZYImageModule-dummy.m */,
+				A0FD323988162D9AD029C2B1CF79A0AA /* ZYImageModule-Info.plist */,
+				2DA475F4594251FDEF179BAC14AC5466 /* ZYImageModule-prefix.pch */,
+				18061E7030DB6AD5C42607B51FB8CFE0 /* ZYImageModule-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZYImageModule";
+			sourceTree = "<group>";
+		};
+		C75E3048032DC80A28605016D5EA71B4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B04FEB7665F6452CD3B1C3CEE7CE05A /* upVersionCancelBtnImage.png */,
+				C4206D98A846BE821DC958CC28F92E4E /* upVersionCancelBtnImageNomal.png */,
+				6FFEF1640AAFED45439781C8BA784142 /* upVersionHeaderImage.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				54820093828421C53BA3967C811913CB /* Development Pods */,
+				9E2F6692E82B10E939D75CCCD5CA9EDD /* Frameworks */,
+				49A893E036971640EFA385C34C84B41F /* Pods */,
+				530E293FF2E9A292839E15CA43F0F619 /* Products */,
+				0DE62E7C414E39A0396E95E7DB24BB75 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F2AFA3797A957067673F1231AFDD3AE3 /* Pods-ZYCategoryModule_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FEFAEBADE194E6EDCA91449B5F2E37C9 /* Pods-ZYCategoryModule_Example.modulemap */,
+				4F994D0C4718BCFC8FF3464B59F1A3B5 /* Pods-ZYCategoryModule_Example-acknowledgements.markdown */,
+				80FD3AD6C9B46596B5AD7E2626055A52 /* Pods-ZYCategoryModule_Example-acknowledgements.plist */,
+				2BCAA0D0A9593CEC7ADDB3E7AD551233 /* Pods-ZYCategoryModule_Example-dummy.m */,
+				8EBD1EE204B859923910E7C711733DC1 /* Pods-ZYCategoryModule_Example-frameworks.sh */,
+				8AB7223E6E149050860AB1DA2B062F4B /* Pods-ZYCategoryModule_Example-Info.plist */,
+				867CC7930389AB3C9B94B4A68513B612 /* Pods-ZYCategoryModule_Example-umbrella.h */,
+				34B8B0D4CA1B401E7200CD46E3CE10F0 /* Pods-ZYCategoryModule_Example.debug.xcconfig */,
+				55036E675BAD08E34A52612712EBBDF4 /* Pods-ZYCategoryModule_Example.release.xcconfig */,
+			);
+			name = "Pods-ZYCategoryModule_Example";
+			path = "Target Support Files/Pods-ZYCategoryModule_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		28F759D73C36457DF65A7C1505B840C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5678AE5F58E211B106C72E5495B531 /* Pods-ZYCategoryModule_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63E9BF8922E655EB57CF7C9C44F94288 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A003CB6DF16E5C448DAB03A4F5B7F9D7 /* ZYImageModule-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0BCA1D1DC77C17DE59A669364EA89F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDEE447E3CBC2B13BF4B341F2EAE8C7 /* UIImage+ZYBundle.h in Headers */,
+				66C6B0EE6BFEEBEBCD4CBAF6E5E64640 /* ZYCategoryModule-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E597535A66A372945BB5F5DE29645E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777C538A4BED35FD13E20E8B416ABCCA /* Pods-ZYCategoryModule_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		198400F4FC25C3D7AA9C87494F7BB124 /* ZYImageModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09CD6AC68FEB63BAA57D36861FF64424 /* Build configuration list for PBXNativeTarget "ZYImageModule" */;
+			buildPhases = (
+				63E9BF8922E655EB57CF7C9C44F94288 /* Headers */,
+				E8923CE61282636908261845192D3877 /* Sources */,
+				58403C358E83E271B1F29E78A1DBFA74 /* Frameworks */,
+				51C9122E31727A4FBB33C9D5060D31D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F5741717E524EA7A4251556627C1EFF /* PBXTargetDependency */,
+			);
+			name = ZYImageModule;
+			productName = ZYImageModule;
+			productReference = 5E4B4736E6C64533B4FA85CB334FF2A4 /* ZYImageModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		42EB9CA77DDABF6C2AFBE75B3E7D8C40 /* ZYCategoryModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A58616D313161A90E6F95464D6A2048F /* Build configuration list for PBXNativeTarget "ZYCategoryModule" */;
+			buildPhases = (
+				B0BCA1D1DC77C17DE59A669364EA89F3 /* Headers */,
+				8EB1A295A3CD55131AAEA5A4DD0CEF1E /* Sources */,
+				32E0359E3DC06DBE08AB93AEFD4E4E8F /* Frameworks */,
+				5D210923532DF7DF0D043600B7ADA7F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E493A533468A05F843E5FB765BCB876 /* PBXTargetDependency */,
+			);
+			name = ZYCategoryModule;
+			productName = ZYCategoryModule;
+			productReference = AD7082CDE2506F8989E181475B5E8238 /* ZYCategoryModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		45A80B2B22C350C11E779241D649A04A /* Pods-ZYCategoryModule_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14602258A481064973C0332BA1A24EE6 /* Build configuration list for PBXNativeTarget "Pods-ZYCategoryModule_Example" */;
+			buildPhases = (
+				D6E597535A66A372945BB5F5DE29645E /* Headers */,
+				0774CBFE6AE938FB31D2BC68C6989A24 /* Sources */,
+				975D60E47A6E849CFF629F6998777A9C /* Frameworks */,
+				1CE15518075E6782AB1F19BBFAF06F35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7208991BF8ADCBEC7F185E5453554DBE /* PBXTargetDependency */,
+				F9E09966678CD40C3CFB6A4F0A9EAB1F /* PBXTargetDependency */,
+			);
+			name = "Pods-ZYCategoryModule_Example";
+			productName = "Pods-ZYCategoryModule_Example";
+			productReference = DDE01BEA181A74A367ABDDCD8F120F85 /* Pods_ZYCategoryModule_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7CAEF1B22F48B5062E20B3CD2CDBBA18 /* ZYImageModule-ZYImageModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E80495B430EDEA323DDE77B90ED60669 /* Build configuration list for PBXNativeTarget "ZYImageModule-ZYImageModule" */;
+			buildPhases = (
+				CF4A2BFAC03726B8CD7E60AAF715DE0A /* Sources */,
+				C53FF986F65B2BB3CBCDCFBCAC5F7028 /* Frameworks */,
+				54AF5F31D43D30232E8EDF3B6CAFD95A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZYImageModule-ZYImageModule";
+			productName = "ZYImageModule-ZYImageModule";
+			productReference = D203EDFE94471DB888D38B6339DE94D5 /* ZYImageModule.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7F63DDF7C9AFA2901A6F804A436255E8 /* Pods-ZYCategoryModule_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C42FA13F481933A20DBD66E7CDFD6BEA /* Build configuration list for PBXNativeTarget "Pods-ZYCategoryModule_Tests" */;
+			buildPhases = (
+				28F759D73C36457DF65A7C1505B840C0 /* Headers */,
+				F5F9A0FAB04DF847D6F41485B70D938E /* Sources */,
+				C182785563584B88022082A479A8DC51 /* Frameworks */,
+				39F71BC57836BECB5DBA4E4D176ED2B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8CBC7C387FFC2F3236D2FFE312CAC86 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZYCategoryModule_Tests";
+			productName = "Pods-ZYCategoryModule_Tests";
+			productReference = 00D153F9A40EA248BEF046447CD2A04B /* Pods_ZYCategoryModule_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 530E293FF2E9A292839E15CA43F0F619 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45A80B2B22C350C11E779241D649A04A /* Pods-ZYCategoryModule_Example */,
+				7F63DDF7C9AFA2901A6F804A436255E8 /* Pods-ZYCategoryModule_Tests */,
+				42EB9CA77DDABF6C2AFBE75B3E7D8C40 /* ZYCategoryModule */,
+				198400F4FC25C3D7AA9C87494F7BB124 /* ZYImageModule */,
+				7CAEF1B22F48B5062E20B3CD2CDBBA18 /* ZYImageModule-ZYImageModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CE15518075E6782AB1F19BBFAF06F35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39F71BC57836BECB5DBA4E4D176ED2B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51C9122E31727A4FBB33C9D5060D31D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1627F642BC7965750187A96E8DD0C9 /* ZYImageModule.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54AF5F31D43D30232E8EDF3B6CAFD95A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B3622016C06BBF7F91DC98FCB059625 /* upVersionCancelBtnImage.png in Resources */,
+				BAB0C6235E52D4DEBC5D4A8AD0D4E35F /* upVersionCancelBtnImageNomal.png in Resources */,
+				E7B5A78074E958F30799E9B6191BA428 /* upVersionHeaderImage.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D210923532DF7DF0D043600B7ADA7F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0774CBFE6AE938FB31D2BC68C6989A24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B781B52B8ADC8805E1810166EEF8FF2 /* Pods-ZYCategoryModule_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB1A295A3CD55131AAEA5A4DD0CEF1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59FBBDB48A5D53864987538B96E13812 /* ReplaceMe.m in Sources */,
+				490533C4546CC0145EDFD6A54E6A0C6A /* UIImage+ZYBundle.m in Sources */,
+				F28EDA332F2A2A282171669837DB930A /* ZYCategoryModule-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4A2BFAC03726B8CD7E60AAF715DE0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8923CE61282636908261845192D3877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6280661DA3FB8080DE83EB5D0E9D0373 /* ReplaceMe.m in Sources */,
+				02A6D25D8F47E8F9910E16628F72846A /* ZYImageModule-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F9A0FAB04DF847D6F41485B70D938E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC39D6019BAB2002E63A8ED8D6D69B6D /* Pods-ZYCategoryModule_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F5741717E524EA7A4251556627C1EFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ZYImageModule-ZYImageModule";
+			target = 7CAEF1B22F48B5062E20B3CD2CDBBA18 /* ZYImageModule-ZYImageModule */;
+			targetProxy = 56E23881952B4053628B200F4FAA299F /* PBXContainerItemProxy */;
+		};
+		3E493A533468A05F843E5FB765BCB876 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZYImageModule;
+			target = 198400F4FC25C3D7AA9C87494F7BB124 /* ZYImageModule */;
+			targetProxy = 887B2843747241B7BAFF4D28F52B64F8 /* PBXContainerItemProxy */;
+		};
+		7208991BF8ADCBEC7F185E5453554DBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZYCategoryModule;
+			target = 42EB9CA77DDABF6C2AFBE75B3E7D8C40 /* ZYCategoryModule */;
+			targetProxy = D6EA866DCBEFAEF8722504E2B4BCEC7E /* PBXContainerItemProxy */;
+		};
+		B8CBC7C387FFC2F3236D2FFE312CAC86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZYCategoryModule_Example";
+			target = 45A80B2B22C350C11E779241D649A04A /* Pods-ZYCategoryModule_Example */;
+			targetProxy = 4254FF147054C2DB8FD458D19183BD68 /* PBXContainerItemProxy */;
+		};
+		F9E09966678CD40C3CFB6A4F0A9EAB1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZYImageModule;
+			target = 198400F4FC25C3D7AA9C87494F7BB124 /* ZYImageModule */;
+			targetProxy = A704DA249D76F3CBA29137DBB653114B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B1CF20A8A59DF717985DC8E85271A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C44837E589E4C2B1FA87D742B2857D49 /* ZYImageModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZYImageModule";
+				INFOPLIST_FILE = "Target Support Files/ZYImageModule/ResourceBundle-ZYImageModule-ZYImageModule-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ZYImageModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		0E18A410F369A4FBEE33099D960C0D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B65780AFB8590010D4EF31AD67B81C02 /* Pods-ZYCategoryModule_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZYCategoryModule_Tests/Pods-ZYCategoryModule_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZYCategoryModule_Tests/Pods-ZYCategoryModule_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		16BD4B473CFB8352EC3A3DBF5D06FB19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C44837E589E4C2B1FA87D742B2857D49 /* ZYImageModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZYImageModule/ZYImageModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZYImageModule/ZYImageModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZYImageModule/ZYImageModule.modulemap";
+				PRODUCT_MODULE_NAME = ZYImageModule;
+				PRODUCT_NAME = ZYImageModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		37942A208B37A67C4CFB609239304634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C44837E589E4C2B1FA87D742B2857D49 /* ZYImageModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZYImageModule/ZYImageModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZYImageModule/ZYImageModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZYImageModule/ZYImageModule.modulemap";
+				PRODUCT_MODULE_NAME = ZYImageModule;
+				PRODUCT_NAME = ZYImageModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		42C8C3E595F7BEBB5BB5D0BCE5BCA711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05E4FD73E5680DE7A3023B85237AD6F7 /* ZYCategoryModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZYCategoryModule/ZYCategoryModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZYCategoryModule/ZYCategoryModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZYCategoryModule/ZYCategoryModule.modulemap";
+				PRODUCT_MODULE_NAME = ZYCategoryModule;
+				PRODUCT_NAME = ZYCategoryModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5B546A11CD1F62C0F830C31D5A3D31EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55036E675BAD08E34A52612712EBBDF4 /* Pods-ZYCategoryModule_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZYCategoryModule_Example/Pods-ZYCategoryModule_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZYCategoryModule_Example/Pods-ZYCategoryModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6996BEEB57732E944FFAA7D5BA87EBB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 501565F2097130E76FF86D1D5EBF853A /* Pods-ZYCategoryModule_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZYCategoryModule_Tests/Pods-ZYCategoryModule_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZYCategoryModule_Tests/Pods-ZYCategoryModule_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8009D5F11091D51DFB6D83D7D901BD4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34B8B0D4CA1B401E7200CD46E3CE10F0 /* Pods-ZYCategoryModule_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZYCategoryModule_Example/Pods-ZYCategoryModule_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZYCategoryModule_Example/Pods-ZYCategoryModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		82BEBD68CB305B3A785DB9B32535C2AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C44837E589E4C2B1FA87D742B2857D49 /* ZYImageModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZYImageModule";
+				INFOPLIST_FILE = "Target Support Files/ZYImageModule/ResourceBundle-ZYImageModule-ZYImageModule-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ZYImageModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F1C527E5543D19992D3684AEA1979D7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05E4FD73E5680DE7A3023B85237AD6F7 /* ZYCategoryModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZYCategoryModule/ZYCategoryModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZYCategoryModule/ZYCategoryModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZYCategoryModule/ZYCategoryModule.modulemap";
+				PRODUCT_MODULE_NAME = ZYCategoryModule;
+				PRODUCT_NAME = ZYCategoryModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09CD6AC68FEB63BAA57D36861FF64424 /* Build configuration list for PBXNativeTarget "ZYImageModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16BD4B473CFB8352EC3A3DBF5D06FB19 /* Debug */,
+				37942A208B37A67C4CFB609239304634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14602258A481064973C0332BA1A24EE6 /* Build configuration list for PBXNativeTarget "Pods-ZYCategoryModule_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8009D5F11091D51DFB6D83D7D901BD4C /* Debug */,
+				5B546A11CD1F62C0F830C31D5A3D31EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A58616D313161A90E6F95464D6A2048F /* Build configuration list for PBXNativeTarget "ZYCategoryModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42C8C3E595F7BEBB5BB5D0BCE5BCA711 /* Debug */,
+				F1C527E5543D19992D3684AEA1979D7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C42FA13F481933A20DBD66E7CDFD6BEA /* Build configuration list for PBXNativeTarget "Pods-ZYCategoryModule_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E18A410F369A4FBEE33099D960C0D30 /* Debug */,
+				6996BEEB57732E944FFAA7D5BA87EBB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E80495B430EDEA323DDE77B90ED60669 /* Build configuration list for PBXNativeTarget "ZYImageModule-ZYImageModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82BEBD68CB305B3A785DB9B32535C2AD /* Debug */,
+				0B1CF20A8A59DF717985DC8E85271A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

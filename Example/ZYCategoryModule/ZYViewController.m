@@ -7,7 +7,7 @@
 //
 
 #import "ZYViewController.h"
-
+#import "UIImage+ZYBundle.h"
 @interface ZYViewController ()
 
 @end
@@ -17,7 +17,21 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+//    NSString *bundlePath = [[NSBundle bundleForClass:[self class]].resourcePath
+//                            stringByAppendingPathComponent:@"/ZYImageModule.bundle"];
+//    NSBundle *resource_bundle = [NSBundle bundleWithPath:bundlePath];
+//    UIImage *image = [UIImage imageNamed:@"upVersionHeaderImage.png"
+//                                inBundle:resource_bundle
+//           compatibleWithTraitCollection:nil];
+    
+    
+    UIImageView * imgV = [UIImageView new];
+    imgV.backgroundColor = [UIColor yellowColor];
+    imgV.frame = CGRectMake(10, 100, 100, 100);
+    //imgV.image = image;
+    imgV.image = [UIImage ZYImageWithName:@"upVersionHeaderImage" TargetClass:[self class]];
+    [self.view addSubview:imgV];
 }
 
 - (void)didReceiveMemoryWarning
